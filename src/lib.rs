@@ -1,4 +1,4 @@
-#![feature(new_uninit)]
+#![feature(new_uninit, new_zeroed_alloc)]
 
 use std::collections::HashMap;
 use std::ffi::CStr;
